@@ -31,7 +31,7 @@ body {
     box-shadow: 0px 8px 30px rgba(5, 96, 136, 0.15);
     border-radius: 50%;
     position: absolute;
-    transform: translate(140%, -175%);    
+    transform: translate(140%, -220%);    
 }
 .white-icon::before {
     content: '';
