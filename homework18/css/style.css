@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+.table {
+    margin: 20px;
+}
+thead {
+    background: #3CB371;    
+    font-weight: bold;
+}
+th {
+    color: white;
+}
+th, td {
+    border: 2px solid #FFA07A;
+    padding: 10px 15px;    
+    font-size: 18px;
+}
