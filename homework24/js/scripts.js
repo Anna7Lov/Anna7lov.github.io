@@ -47,6 +47,7 @@ function updateTime(numberOfSeconds) {
 
     if (numberOfSeconds > 0) {
         numberOfSeconds = numberOfSeconds - 1;
+        countdownCounter.innerHTML = ''; 
         timerMinutes.value = minutes;
         timerSeconds.value = remainingSeconds;        
     } else {
