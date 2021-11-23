@@ -57,7 +57,7 @@ class Snake extends Animal {
     }
 }
 
-const snake = new Snake('absent', 'true');
+const snake = new Snake('absent', true);
 
 class Human extends Animal {
     constructor(legs, firstName, lastName) {
