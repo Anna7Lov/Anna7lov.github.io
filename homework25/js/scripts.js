@@ -7,8 +7,8 @@ String.prototype.reverse = function () {
 
 Array.prototype.sorting = Array.prototype.sort;
 
-Array.prototype.sort = function () {
-    return [...this].sorting();
+Array.prototype.sort = function (arg) {
+    return [...this].sorting(arg);
 }
 
 
