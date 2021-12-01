@@ -187,7 +187,7 @@ xhr3.addEventListener('load', () => {
 
 const xhr4 = new XMLHttpRequest();
 
-xhr4.open('GET', '/stable?maxRandom=100&prob=5');
+xhr4.open('GET', '/unstable?maxRandom=100&prob=5');
 
 xhr4.send();
 
