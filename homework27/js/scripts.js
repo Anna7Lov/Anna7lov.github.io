@@ -311,7 +311,7 @@ xhr6.addEventListener('load', () => {
 
         const xhr10 = new XMLHttpRequest();
 
-        xhr10.open('GET', '/stable?maxRandom=2&prob=5');
+        xhr10.open('GET', '/unstable?maxRandom=2&prob=5');
 
         xhr10.send();
 
