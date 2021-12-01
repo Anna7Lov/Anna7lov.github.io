@@ -20,8 +20,6 @@ function getRandomGreeting() {
 }
 
 
-"use strict";
-
 function sendRequest(
     method,
     url,
